@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fakebook/static/css/main.5bb55f8f.css",
+    "main.js": "/fakebook/static/js/main.bbc207c1.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/fakebook/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pp.jpg": "/fakebook/static/media/pp.e1f305dbbd1097e83e77.jpg",
+    "index.html": "/fakebook/index.html",
+    "main.5bb55f8f.css.map": "/fakebook/static/css/main.5bb55f8f.css.map",
+    "main.bbc207c1.js.map": "/fakebook/static/js/main.bbc207c1.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/fakebook/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bb55f8f.css",
+    "static/js/main.bbc207c1.js"
+  ]
+}
