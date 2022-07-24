@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/fakebook-client'>
       <Navbar />
         <Routes>
           <Route path='/' element={ <Navigate to='home' /> } />
