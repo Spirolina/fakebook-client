@@ -20,7 +20,7 @@ function App() {
       <BrowserRouter basename='/fakebook-client'>
       <Navbar />
         <Routes>
-          <Route path='/' element={ <Navigate to='home' /> } />
+          <Route index path='/' element={ <Navigate to='home' /> } />
 
             <Route path='/home' element={<Home />} />
             <Route path='/welcome' element={<Welcome />} />
