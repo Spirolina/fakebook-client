@@ -1,0 +1,13 @@
+.my-friend {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.my-friend-pp {
+    margin-right: 8px;
+}

@@ -1,0 +1,27 @@
+.home-container {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    margin-top: 16px;
+}
+
+.timeline-container {
+    width: calc(60% - 32px);
+    margin-left: 16px;
+
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .timeline-container {
+        margin: auto;
+        width: 90%;
+    }
+    .home-container {
+        width: 100%;
+    }
+  }
+
+  

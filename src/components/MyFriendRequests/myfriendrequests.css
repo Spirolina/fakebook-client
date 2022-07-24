@@ -1,0 +1,48 @@
+.my-friend-req {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    margin: auto;
+}
+
+.my-friend-req-pp {
+    margin-right: 10px;
+}
+
+.my-friend-req-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.my-friend-req-yes {
+    font-size: 35px;
+    display: flex;
+    border: 0;
+    border-radius: 100%;
+    color: #5cb85c;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.my-friend-req-no {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border: 0;
+    border-radius: 100%;
+    color: #d9534f;
+}
+.my-friend-req-buttons button:hover {
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+.loading {
+    margin-left: auto;
+}

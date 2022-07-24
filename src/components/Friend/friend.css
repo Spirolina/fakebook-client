@@ -1,0 +1,41 @@
+.friend-rec {
+    display: flex;
+    padding: 8px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.friend-rec-box {
+    width: 25%;
+}
+
+.friend-rec-pp {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+
+.friend-rec-username {
+    font-weight: bold;
+}
+.friend-rec-button-box {
+    margin-left: auto;
+}
+.friend-rec-button {
+    font-size: 25px;
+    display: flex;
+    padding: 5px;
+    border-radius: 100%;
+    border: 0;
+    color: #5cb85c;
+    transition: all 0.2s;   
+}
+
+.friend-rec-button:hover {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+}

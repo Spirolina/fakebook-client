@@ -1,0 +1,85 @@
+.navbar {
+    background-color: 	#212129;
+    color: 	#ECECEC;
+    padding: 8px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+.brand a {
+    text-decoration: none;
+    color: #ECECEC;
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.center {
+    margin: auto;
+}
+
+.navbar-buttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;    
+}
+
+.navbar-buttons a {
+    margin-left:10px;
+    text-decoration: none;
+    color: #a3a3a3
+   
+}
+
+.navbar-active {
+    color: #ECECEC !important;
+}
+
+.notification {
+    margin-left: auto;
+    font-size: 20px;
+}
+
+.not-icon {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    margin-left:20px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+.navbar-pp {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
+.logout-icon {
+        margin-left: 15px;
+        transition: all 0.2s;
+}
+
+.logout-icon:hover {
+    cursor: pointer;
+    transform: translate(5px);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar-container {
+        margin: auto;
+        width: 100%;
+    }
+  }

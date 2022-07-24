@@ -1,0 +1,28 @@
+.friends-page-container {
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    margin-top: 16px;
+    padding: 16px;
+    display: flex;
+}
+
+.friend-requests {
+    width: 50%;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.my-friends {
+    width: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 16px;
+    text-align: center;
+
+}
+
