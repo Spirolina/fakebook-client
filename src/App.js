@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 import './App.css';
 import { Navbar } from './components/Navbar/Navbar';
 import { useToken } from './hooks/useToken';
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename='/fakebook-client'>
+      <HashRouter>
       <Navbar />
         <Routes>
           <Route index path='/' element={ <Navigate to='home' /> } />
@@ -27,7 +27,7 @@ function App() {
             <Route path='/friends' element={<Friends />} />
 
      </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
