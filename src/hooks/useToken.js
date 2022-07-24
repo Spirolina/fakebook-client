@@ -14,8 +14,13 @@ export const useToken = () => {
             auth.setToken(token);
             auth.setUser(user);
         } else {
-            setToken(JSON.parse(localStorage.getItem('token')));
-            setUser(JSON.parse(localStorage.getItem('user')))
+            const tempToken = JSON.parse(localStorage.getItem('token'));
+            const tempUser = JSON.parse(localStorage.getItem('user'));
+            if (tempToken && tempUser) {
+                setToken(JSON.parse(localStorage.getItem('token')));
+                setUser(JSON.parse(localStorage.getItem('user')))
+            }
+          
             auth.setToken(token);
             auth.setUser(user);
         }
